@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="automation.workday.workday.testScripts.HomeTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="testHomePage"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- automation.workday.workday.testScripts.HomeTest -->
+      <class name="automation.workday.workday.testScripts.SubmissionTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="testPersonalInfoPage"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- automation.workday.workday.testScripts.SubmissionTest -->
+      <class name="automation.workday.workday.testScripts.ChangeMyPersonalInfoTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="testPersonalInfoPage"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- automation.workday.workday.testScripts.ChangeMyPersonalInfoTest -->
+      <class name="automation.workday.workday.testScripts.PersoalInfoTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="testPersonalInfoPage"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- automation.workday.workday.testScripts.PersoalInfoTest -->
+      <class name="automation.workday.workday.testScripts.RememberDeviceTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="testRememberDevice"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- automation.workday.workday.testScripts.RememberDeviceTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
